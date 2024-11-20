@@ -6,7 +6,8 @@ interface PaginaProps{
 export default function Pagina(props: PaginaProps) {
  return(
  <div className="
-    flex flex-col items-center py-10
+    flex flex-col items-center py-10 min-h-screen
+    bg-[url('/background.png')] bg-cover
  ">
     <main className={props.className}>
         {props.children}
