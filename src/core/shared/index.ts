@@ -1,2 +1,2 @@
 import Id from "./Id"
-export { Id }
+export { Id, Alias }
