@@ -12,4 +12,4 @@ export default interface Evento {
     imagemBackground: string;
     publicoEsperado: number;
     convidados: Convidado[]
-}
+}   
