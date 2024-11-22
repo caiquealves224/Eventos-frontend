@@ -15,3 +15,4 @@ export default class Senha {
         return senha.join(""); 
     }
 }
+ 
