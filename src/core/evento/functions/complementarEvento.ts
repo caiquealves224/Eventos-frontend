@@ -1,6 +1,5 @@
 import { Evento, Id, Senha } from "@/core";
-
-const validarEvento = (evento: Evento) => evento;
+import validarEvento from "./validarEvento";
 
 export default function complementarEvento(eventoParcial: Partial<Evento>): Evento {
     const erros = validarEvento(eventoParcial);
