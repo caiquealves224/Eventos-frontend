@@ -27,7 +27,7 @@ export default function PaginaEventos() {
                         <p className="flex-1 text-sm text-zinc-400">{evento.descricao}</p>
                         <div className="flex gap-5">
                             <Link className="flex-1 botao vermelho" href={`/evento/admin/${evento.id}/${evento.senha}`}>Admin</Link>
-                            <Link className="flex-1 botao verde" href={`/evento/admin/${evento.id}/${evento.senha}`}>Convite</Link>
+                            <Link className="flex-1 botao verde" href={`/convite//${evento.alias}`}>Convite</Link>
                         </div>
                     </div>
                 </div>
