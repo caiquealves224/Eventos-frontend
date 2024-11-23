@@ -9,7 +9,8 @@ export default function DashboardEvento(props: DashboardEventoProps) {
     return (
         <div>
             <div>
-                <InformacoesEvento evento={props.evento}/>
+                <InformacoesEvento evento={props.evento} className="
+                flex-1"/>
             </div>
         </div>
     )
