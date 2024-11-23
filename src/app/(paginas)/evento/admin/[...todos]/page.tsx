@@ -33,7 +33,12 @@ export default function PaginaAdminEvento(props: any) {
     return (
         <div className="flex flex-col items-center">
             {evento ? (
-                <DashboardEvento evento={evento}/>
+                <DashboardEvento 
+                    evento={evento}
+                    presentes={presentes}
+                    ausentes={ausentes}
+                    totalGeral={totalGeral ?? 0} 
+                />
             ): (
                 <FormSenhaEvento/>
             )}
