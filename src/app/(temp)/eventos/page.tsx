@@ -7,7 +7,7 @@ export default function PaginaEventos() {
         <div className="grid grid-cols-3 gap-5">
             {eventos.map(evento => (
                 <div key={evento.id} className="
-                    flex-col flex-col w-full
+                    flex-col flex-col w-full overflow-hidden
                     bg-zinc-800 rounded-lg
                 ">
 
