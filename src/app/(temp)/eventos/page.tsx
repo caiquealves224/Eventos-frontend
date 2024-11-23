@@ -13,7 +13,7 @@ export default function PaginaEventos() {
                 ">
 
                     <div className="
-                        relative w-full h-44
+                        relative w-full h-52
                     ">
                         <Image 
                             src={evento.imagem}
@@ -23,9 +23,9 @@ export default function PaginaEventos() {
                         />
                     </div>
 
-                    <div className="flex-1 flex flex-col items-center p-7 gap-5">
+                    <div className="flex-1 flex flex-col items-center p-7 gap-5 text-center">
                         <span className="text-lg font-balck">{evento.nome}</span>
-                        <p className="flex-1 text-sm text-zinc-400 text-center">{evento.descricao}</p>
+                        <p className="flex-1 text-sm text-zinc-400">{evento.descricao}</p>
 
                         <QRCode
                             value={JSON.stringify({id: evento.id, senha: evento.senha})}
