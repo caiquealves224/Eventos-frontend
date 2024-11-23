@@ -22,7 +22,7 @@ body {
 
 @layer components {
   .container {
-    @apply mx-auto mx-w-7x1 px-4
+    @apply mx-auto mx-w-7xl px-4
   }
 
   .botao {
